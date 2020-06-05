@@ -6,7 +6,7 @@ while True :
     try:
          # print(Answer)
          Guess = int(input(f"Guess a Number Between {sys.argv[1]} to {sys.argv[2]} = "))
-         if 0 <= Guess <= 10 :
+         if 0 <= Guess <= 100 :
              if Guess == Answer:
                  print("You are a Genius !!!")
                  break
@@ -14,7 +14,7 @@ while True :
                  print("Please try again. Better Luck Next Time.")
                  continue
          else:
-             print("ERROR : Please Enter a number Between 0 to 10")
+             print("ERROR : Please Enter a number Between 0 to 100")
              continue
     except ValueError :
         print("ERROR : Please Enter a Numeric value ")
