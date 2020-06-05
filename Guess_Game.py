@@ -9,6 +9,7 @@ while True :
          if 0 <= Guess <= 100 :
              if Guess == Answer:
                  print("You are a Genius !!!")
+                 print("Well Luck was on Your Side")
                  break
              else :
                  print("Please try again. Better Luck Next Time.")
